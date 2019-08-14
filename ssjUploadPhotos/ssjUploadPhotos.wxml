@@ -1,0 +1,16 @@
+<!--components/ssjUploadPhotos/ssjUploadPhotos.wxml-->
+<!-- <text>ssjUploadPhotos</text> -->
+<view class="ssjUploadPhotosView">
+  <text class="title">{{title}}  {{showSelectedCount}}</text>
+  <view wx:for='{{dataList}}' wx:key="key">
+    <view class="childView" >
+      <image class="childImage" src="{{dataList[index]}}" data-index = '{{index}}' data-url='{{dataList[index]}}' bindtap="childViewClick"></image>
+      <!-- 如果图片是‘+’号  不显示删除按钮 -->
+      <image class="deleteIconImage" bindtap="deleteImage" src="{{icon_deleteImageUrl}}" data-index = '{{index}}'
+      hidden='{{dataList[index]==icon_addImageUrl?true:false}}'></image>
+    </view>
+  
+  </view>
+
+
+</view>
