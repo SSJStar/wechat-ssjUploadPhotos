@@ -5,6 +5,8 @@
 可能是因为之前开发的习惯，让我在学习一门新语言的时候，不得不去想如何自定义一个组件，以应付常用情况，于是有了这样一个组件的封装。
 
 <img src="https://github.com/SSJStar/wechat-ssjUploadPhotos/blob/master/效果图1.png" width="375"></img>
+<img src="https://github.com/SSJStar/wechat-ssjUploadPhotos/blob/master/效果图2.png" width="375"></img>
+<img src="https://github.com/SSJStar/wechat-ssjUploadPhotos/blob/master/效果图3.png" width="375"></img>
 >  使用步骤：
 
 1. 将ssjUploadPhotos文件夹拉到miniprogram/components下，没有components文件夹就新建它
