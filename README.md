@@ -4,7 +4,7 @@
 
 可能是因为之前开发的习惯，让我在学习一门新语言的时候，不得不去想如何自定义一个组件，以应付常用情况，于是有了这样一个组件的封装。
 
-(https://github.com/SSJStar/wechat-ssjUploadPhotos/blob/master/效果图1.png)
+![效果图](https://github.com/SSJStar/wechat-ssjUploadPhotos/blob/master/效果图1.png)
 
 >  使用步骤：
 
